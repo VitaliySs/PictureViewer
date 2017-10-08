@@ -52,7 +52,7 @@ namespace PictureViewer
         {
             if (checkBox1.Checked)
             {
-                pictureBox1.SizeMode = PictureBoxSizeMode.Normal;
+                pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             }
             else
                 pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize; 
