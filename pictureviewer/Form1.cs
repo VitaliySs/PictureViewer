@@ -55,7 +55,7 @@ namespace PictureViewer
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
             else
-                pictureBox1.SizeMode = PictureBoxSizeMode.Normal; 
+                pictureBox1.SizeMode = PictureBoxSizeMode.Normal; 111
         }
     }
 }
