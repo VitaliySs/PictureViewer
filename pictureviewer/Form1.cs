@@ -52,10 +52,10 @@ namespace PictureViewer
         {
             if (checkBox1.Checked)
             {
-                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                pictureBox1.SizeMode = PictureBoxSizeMode.Normal;
             }
             else
-                pictureBox1.SizeMode = PictureBoxSizeMode.Normal; 
+                pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize; 
         }
     }
 }
